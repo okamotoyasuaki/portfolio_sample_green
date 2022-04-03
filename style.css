@@ -1,0 +1,242 @@
+
+/* headerのスタイルシート */
+.block_header {
+    height: 750px;
+    background: linear-gradient(#75BDD3, #55C4BB);
+    color: #fff;
+    position: relative;
+}
+
+.link_header {
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.link_header a {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 15px;
+
+}
+
+.profile_header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_header img {
+    width: 100%;
+    max-width: 370px;
+    max-height: 370px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    padding: 24px;
+    margin-right: 50px;
+}
+
+.En_name {
+    font-size: 48px;
+    display: block;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    border-bottom: solid 2px #6AEDC8;
+    padding: 11px 0 20.5px;
+}
+
+.name_job {
+    font-size: 30px;
+    font-weight: lighter;
+    display: block;
+    padding: 11px 0;
+    letter-spacing: 0.2rem;
+}
+
+/* Aboutのスタイルシート */
+.box_about {
+    max-width: 1080px;
+    margin: 100px auto;
+    text-align: center;
+    color: #4D4C4C;
+}
+
+.header_inner {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+.sub_title {
+    margin: 20px 0;
+}
+
+.shikiri {
+    width: 100%;
+    max-width: 400px;
+}
+
+.about_content {
+    margin: 100px auto;
+}
+
+.skil {
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    margin: 30px 0;
+}
+
+.about_me {
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+}
+
+.mail {
+    display: block;
+    margin: 30px 0;
+}
+
+.icon_list {
+    display: flex;
+    justify-content: center;
+    max-width: 247px;
+    width: 100%;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon_list li {
+    margin-right: 50px;
+}
+
+.icon_list li:last-child {
+    margin-right: 0;
+}
+
+/* projectsのスタイルシート */
+.box_project {
+    max-width: 1080px;
+    margin: 400px auto;
+    text-align: center;
+    color: #4D4C4C;
+}
+
+.items_list {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 200px;
+}
+
+.projects_content {
+    margin: 100px 0;
+}
+
+.project_item {
+    max-width: 390px;
+}
+
+.project_item img {
+    width: 100%;
+}
+
+.project_text {
+    text-align: left;
+}
+
+.project_text h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.project_text p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.project_text span {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+}
+
+.contact {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+}
+
+.link {
+    margin: 20px 0;
+}
+
+.link a {
+    padding: 5px 10px;
+    border: solid 2px #000;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* contactのスタイルシート */
+.box_contact {
+    max-width: 1080px;
+    margin: 100px auto;
+    text-align: center;
+    color: #4D4C4C;
+}
+
+.contact_item {
+    background-color: #F5F4F4;
+    width: 100%;
+    max-width: 390px;
+    padding: 30px 0;
+    border-top: solid 5px #53BD9D;
+}
+
+.contact_item p {
+    margin: 10px;
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+}
+
+.border {
+    border: solid 2px #707070;
+    max-width: 80px;
+    margin: 18px auto;
+}
+
+.contact_item span {
+    display: block;
+    margin: 15px 0;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+}
+
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color: #F5F4F4;
+    text-align: center;
+}
+
+.footer p {
+    color: #938F8F;
+    line-height: 100px;
+}
